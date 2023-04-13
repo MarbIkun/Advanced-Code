@@ -2,7 +2,9 @@ package com.itheima.interfacedemo1;
 
 import java.util.ArrayList;
 
+//方案一
 public class StudentOp1 implements StudentOp {
+    //展示所有信息
     @Override
     public void printAllStudent(ArrayList<Student> list) {
         for (int i = 0; i < list.size(); i++) {
@@ -11,6 +13,7 @@ public class StudentOp1 implements StudentOp {
         }
     }
 
+    //求平均成绩
     @Override
     public void printAvgStudent(ArrayList<Student> list) {
         double sum = 0;

@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class ClassManager {
     private static ArrayList<Student> list;
-    private StudentOp so = new StudentOp2();
-
+    private StudentOp so = new StudentOp2();//接口多态方式创建对象
 
     static {
         list = new ArrayList<>();
