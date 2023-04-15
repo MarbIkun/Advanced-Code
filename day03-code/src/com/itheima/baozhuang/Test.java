@@ -13,7 +13,7 @@ public class Test {
         System.out.println(a1);
 
         System.out.println("================");
-//将基本数据类型和字符串类型相互转换
+        //将基本数据类型和字符串类型相互转换
         //基本数据类型转为字符串类型
         //方式一: 直接字符串拼接
         String s1 = a + " ";
