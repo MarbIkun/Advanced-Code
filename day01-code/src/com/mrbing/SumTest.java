@@ -5,6 +5,7 @@ public class SumTest {
         int sum = SumMation.sum(100, 7);
         System.out.println(sum);
 
+
     }
 }
 
