@@ -2,7 +2,6 @@ package com.itheima.hemowork;
 
 public class Test1 {
     public static void main(String[] args) {
-        int a1 = Alarm.a;
         Door d1 = new WoodDoor();
         d1.setWidth(2);
         d1.setHeight(3);
